@@ -1,0 +1,13 @@
+name = "dynamic-guestbook"
+compatibility_date = "2026-09-19"
+pages_build_output_dir = "dist"
+
+# Created with: wrangler d1 create guestbook
+# Paste the database_id it prints below, then:
+#   wrangler d1 migrations apply guestbook --local   (for `pnpm dev`)
+#   wrangler d1 migrations apply guestbook --remote  (before first prod deploy)
+[[d1_databases]]
+binding = "DB"
+database_name = "guestbook"
+database_id = ""
+migrations_dir = "migrations"

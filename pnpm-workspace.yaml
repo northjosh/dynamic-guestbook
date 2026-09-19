@@ -1,0 +1,9 @@
+allowBuilds:
+  '@reown/appkit': true
+  bigint-buffer: true
+  bufferutil: true
+  esbuild: true
+  lightningcss: true
+  protobufjs: true
+  utf-8-validate: true
+  workerd: true
